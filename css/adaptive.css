@@ -99,6 +99,13 @@
     
     .container > img{
         background-size: contain;
+        width: 250px;
+        height: 400px;
+    }
+
+    .card-steps-01 > img,
+    .card-steps-03 > img {
+    transform: translateX(0);
     }
 
     .colontit-text:nth-child(2) {
@@ -126,6 +133,114 @@
     .heading-for-cards{
         font-size: 40px;
         justify-content: start;
+    }
+
+    .footer{
+        overflow-x: hidden;
+    }
+
+    .content-01,
+    .content-02,
+    .content-03{
+    width: 300px;
+    margin-left: 3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    }
+
+    .text-heading{
+        font-size: 15px;
+        line-height: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .second-column-inform{
+        gap: 2rem;
+    }
+
+    .links a{
+        margin-top: 5px;
+        font-size: 12px;
+    }
+
+    .message-text{
+        width: 100px;
+    }
+}
+
+
+@media screen and (max-width: 380px) {
+    
+    .container > img{
+        background-size: contain;
+        width: 250px;
+        height: 400px;
+    }
+
+    .card-steps-01 > img,
+    .card-steps-03 > img {
+    transform: translateX(0);
+    }
+
+    .colontit-text:nth-child(2) {
+        margin-top: 10px;
+        margin-bottom: 5px;
+    }
+
+    .sub-title > h1 {
+        font-size: 20px;
+    }
+
+    .sub-title > p{
+        font-size: 10px;
+    }
+
+    nav > a,
+    .bl-btn-account{
+        display: none;
+    }
+
+    .ham-menu-btn{
+        display: block;
+    }
+
+    .heading-for-cards{
+        font-size: 40px;
+        justify-content: start;
+    }
+
+    .footer{
+        overflow-x: hidden;
+    }
+
+    .content-01,
+    .content-02,
+    .content-03{
+    width: 300px;
+    margin-left: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    }
+
+    .text-heading{
+        font-size: 15px;
+        line-height: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .second-column-inform{
+        gap: 2rem;
+    }
+
+    .links a{
+        margin-top: 5px;
+        font-size: 12px;
+    }
+
+    .message-text{
+        width: 100px;
     }
 }
 
