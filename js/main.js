@@ -9,4 +9,3 @@ menuBtn.addEventListener('click', function(e){
     menuLinks.classList.toggle('links-active');
     menuBg.classList.toggle('bg-active');
 });
-
